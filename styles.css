@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+display: grid;
+grid-template-columns: 50% 50%;
+background-color: var(--body-bg-color);
+}
+
+main {
+    margin: 3.1em 2.5em 0 2.2em;
+}
+
+.header img {
+    width: 24em;
+    height: 6em;
+    margin-bottom: 5.75em;
+}
+
+.introduction h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: var(--title-color);
+    margin-bottom: .6em;
+    letter-spacing: .03em;
+}
+
+.introduction h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: .6em;
+    letter-spacing: .03em;
+}
+
+.introduction p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: .9em;
+    font-weight: 100;
+    color: var(--text-color);
+    letter-spacing: .03em;
+    line-height: 1.5em;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    margin: 3.1em 0em;
+    color: var(--text-color);
+    width: 50em;
+   border: none;
+}
+
+.form input {
+width: 50em;
+height: 3em;
+
+border: none;
+border-left: solid 0.25em var(--title-color);
+font-family: 'League Spartan', sans-serif;
+font-size: .75em;
+outline: none;
+}
+
+#button_email {
+    background-image: url(./assets/assets/send.svg);
+    width: 3em;
+    height: 3em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #8257E5;
+    border: none;
+    cursor: pointer;
+}
+
+.imageaside{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/assets/read_news.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.readfirst{
+    display: flex;
+    align-items: center;
+}
+
+.readfirst p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: .9em;
+    font-weight: 700;
+    color: var(--bg-button-color);
+}

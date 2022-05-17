@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RocketNews</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <img src="./assets/assets/logo.svg" alt="Logo" />
+      </section>
+      <section class="introduction">
+        <h1>atualize ideias e informações em 5 minutos.</h1>
+        <h3>
+          tudo que você precisa saber para começar seu dia bem e informado
+        </h3>
+        <p>
+          notícias sobre o universo Rocketseat, e tudo o que precisa para
+          começar o dia
+        </p>
+        <p>melhor, perfeito para se preparar para codar</p>
+      </section>
+      <section class="form">
+        <form id="Email" onsubmit="registerEmail()">
+          <fieldset form="Email" name="input-email">
+            <legend>Insira seu e-mail:</legend>
+            <label for="email"></label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="oi@rocketseat.com"
+              required
+            />
+            <button id="button_email" type="submit"></button>
+          </fieldset>
+        </form>
+      </section>
+      <section class="readfirst">
+        <p>deixe-me ler primeiro</p>
+        <a href="#">
+          <img
+            src="./assets/assets/arrow-right.svg"
+            alt="arrow for acess by read"
+          />
+        </a>
+      </section>
+    </main>
+    <section class="imageaside"></section>
+  </body>
+</html>
