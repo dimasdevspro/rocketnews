@@ -118,6 +118,14 @@ outline: none;
     }
 
     .form input {
-        width: 28em;
+        width: 80vw;
+    }
+    
+    .introduction {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
     }
 }
