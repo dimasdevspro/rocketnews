@@ -128,4 +128,12 @@ outline: none;
     align-items: center;
     justify-content: center;
     }
+
+    .header {
+        width: 90vw;
+    }
+
+    .header img {
+        width: 100%;
+    }
 }
