@@ -109,3 +109,15 @@ outline: none;
     font-weight: 700;
     color: var(--bg-button-color);
 }
+
+/* media queries */
+
+@media (max-width: 940px){
+    .imageaside {
+        display: none;
+    }
+
+    .form input {
+        width: 28em;
+    }
+}
